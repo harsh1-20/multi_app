@@ -1,5 +1,6 @@
 streamlit
 requests
 feedparser
-icalendar
+icalendar==5.0.12
+
 
