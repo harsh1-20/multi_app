@@ -1,3 +1,5 @@
+import os
+os.system("pip install icalendar")
 import streamlit as st
 from pass_strength import *
 from calender import show_calendar
