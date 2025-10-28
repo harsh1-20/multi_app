@@ -1,12 +1,6 @@
 import os
 import sys
 import subprocess
-try:
-    import icalendar
-except ModuleNotFoundError:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "--user", "icalendar"])
-    import icalendar  # try again after installing
-
 import streamlit as st
 from calender import show_calendar
 
